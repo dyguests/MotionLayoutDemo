@@ -65,6 +65,22 @@
             <include layout="@layout/recycler_view_item" />
 
             <include layout="@layout/recycler_view_item" />
+
+            <include layout="@layout/recycler_view_item" />
+
+            <include layout="@layout/recycler_view_item" />
+
+            <include layout="@layout/recycler_view_item" />
+
+            <include layout="@layout/recycler_view_item" />
+
+            <include layout="@layout/recycler_view_item" />
+
+            <include layout="@layout/recycler_view_item" />
+
+            <include layout="@layout/recycler_view_item" />
+
+            <include layout="@layout/recycler_view_item" />
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.motion.MotionLayout>
