@@ -3,5 +3,14 @@
     <Transition
         app:constraintSetEnd="@layout/partial_coordinator_header_end"
         app:constraintSetStart="@layout/partial_coordinator_header_start"
-        app:duration="1000" />
+        app:duration="1000">
+        <KeyFrameSet>
+            <KeyPosition
+                app:framePosition="50"
+                app:keyPositionType="pathRelative"
+                app:percentX="-1"
+                app:percentY="-1"
+                app:target="@id/v_3" />
+        </KeyFrameSet>
+    </Transition>
 </MotionScene>
