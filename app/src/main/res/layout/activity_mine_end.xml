@@ -31,11 +31,11 @@
         app:srcCompat="@mipmap/ic_launcher"
         tools:ignore="ContentDescription" />
 
-    <ScrollView
-        android:id="@+id/sl_content"
+    <View
+        android:id="@+id/v_content"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@android:color/white"
+        android:background="#ffee8e"
         android:elevation="8dp"
         android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
