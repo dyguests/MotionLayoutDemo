@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fanhl.motionlayoutdemo.widget.CollapsibleToolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/app_bar_height"
+    tools:background="#fcf">
+
+</com.fanhl.motionlayoutdemo.widget.CollapsibleToolbar>
