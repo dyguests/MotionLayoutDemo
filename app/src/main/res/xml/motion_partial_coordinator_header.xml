@@ -6,10 +6,15 @@
         app:duration="1000">
         <KeyFrameSet>
             <KeyPosition
-                app:framePosition="50"
+                app:framePosition="33"
                 app:keyPositionType="pathRelative"
-                app:percentX="-1"
-                app:percentY="-1"
+                app:percentX="-3"
+                app:target="@id/v_3" />
+            <KeyPosition
+                app:framePosition="66"
+                app:keyPositionType="pathRelative"
+                app:percentX="1"
+                app:percentY="1"
                 app:target="@id/v_3" />
         </KeyFrameSet>
     </Transition>
