@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MotionLayoutDemo</string>
+    <string name="grid_layout_manager">android.support.v7.widget.GridLayoutManager</string>
+    <string name="linear_layout_manager">android.support.v7.widget.LinearLayoutManager</string>
+</resources>
