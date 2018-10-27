@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintToolbar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minHeight="?attr/actionBarSize"
@@ -10,6 +11,14 @@
     app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed"
     tools:background="#ccf"
     tools:layout_height="@dimen/app_bar_height">
+
+    <View
+        android:id="@+id/v_anchor_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/img_avatar"
