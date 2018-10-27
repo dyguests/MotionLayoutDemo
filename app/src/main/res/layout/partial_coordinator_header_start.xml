@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.fanhl.motionlayoutdemo.widget.CollapsibleToolbar
+<android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:minHeight="?attr/actionBarSize"
-    app:layoutDescription="@xml/motion_partial_coordinator_header"
-    app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed"
     tools:background="#ccf"
     tools:layout_height="@dimen/app_bar_height">
 
@@ -66,4 +63,4 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/v_2"
         app:layout_constraintTop_toBottomOf="@+id/img_avatar" />
-</com.fanhl.motionlayoutdemo.widget.CollapsibleToolbar>
+</android.support.constraint.ConstraintLayout>
