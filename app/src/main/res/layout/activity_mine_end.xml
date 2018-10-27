@@ -35,7 +35,6 @@
         android:id="@+id/v_content"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#ffee8e"
         android:elevation="8dp"
         android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
